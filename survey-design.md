@@ -59,11 +59,15 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 ### `request_type`
 
-- If `request_type` = "...join the NSARGC Community and/or keep informed on updates to SARCOP" > **NSARGC Interest List** page
-  - Directed to **NSARGC Interest List** page
-- If `request_type` = "...request view-only access to SARCOP data for my incident" > **SARCOP Access Request** page
-- If `request_type` = "...onbard my SAR Team to SARCOP" > **SARCOP Team Onboard Request** page
-- If `request_type` = "...submit a technical issue I found in SARCOP" > **SARCOP Issue Ticket** page
+- If = "...join the NSARGC Community and/or keep informed on updates to SARCOP"
+  - User completes **User Info** group
+  - Submission triggers
+    - post to MS Teams channel
+    - Thank you email to user
+    - Invite to monthly SARGEO Hangout
+- If = "...request view-only access to SARCOP data for my incident" > **SARCOP Access Request** page
+- If = "...onbard my SAR Team to SARCOP" > **SARCOP Team Onboard Request** page
+- If = "...submit a technical issue I found in SARCOP" > **SARCOP Issue Ticket** page
   
 - If `urgency` = `Supporting`, the submission triggers a post to a Teams channel marked as **! High Importance** with `description`
 - If `request_type = Access`, a follow-up workflow checks existing group permissions and routes to the admin team.
