@@ -13,7 +13,7 @@ This form consolidates multiple NSARGC administrative workflows into a single, t
 - ArcGIS Online (hosted feature layers, dashboards, and Experience Builder)
 - PowerAutomate (node/hub for all-of-the-above)
 
-## Credential Ground Rules
+## 🚨 Credential Ground Rules
 
 All workflow configuration must be done using NSARGC accounts where applicable to ensure seamless integration in PowerAutomate.  Utilizing a single, head-less NSARGC account solves common authentication / token issues in PowerAutomate, and ensures the NSARGC / NAPSG teams can access necessary input-output integrations and troubleshoot.  This ensures scalable, future-proof access.
 
@@ -29,7 +29,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 --- 
 
-### Section: Survey Start / Request Type
+#### Section: Survey Start / Request Type
 
 | Field Name       | Label            | Type        | Required                      | Description                 |
 |------------------|------------------|-------------|-------------------------------|-----------------------------|
