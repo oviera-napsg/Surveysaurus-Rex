@@ -7,3 +7,5 @@ This repo is for planning, documenting, executing, and troubleshooting the devel
 Repo: [Search and Rescue Common Operating Platform](https://github.com/pjdohertygis/SARCOP)
 
 Response System / SARCOP: [ResponseSystem.org/SARCOP](https://www.responsesystem.org/sarcop)
+
+NSARGC: [National Search and Rescue Geospatial Coordination Group](https://nsargc.napsgfoundation.org/)
