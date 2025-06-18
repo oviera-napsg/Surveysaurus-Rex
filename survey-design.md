@@ -95,7 +95,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
   - Submission triggers
     - post to Issue Ticket MS Teams channel (Operations)
       - If `urgency` = `supporting`, MS Teams post marked as **! High Importance**
-        
+
 ---
 
 > 📌 *This document will evolve alongside the Survey123 schema and integration workflows.*
