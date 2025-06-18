@@ -9,9 +9,9 @@ The Surveysaurus Rex Survey123 form is designed to intake access requests, techn
 This form consolidates multiple NSARGC administrative workflows into a single, trackable system that integrates with:
 - Microsoft Teams (automated messages)
 - Microsoft Outlook (email notifications)
-- OneNote (logging)
-- ArcGIS Online (hosted feature layers, dashboards, and Experience Builder)
-- PowerAutomate (node/hub for all-of-the-above)
+- OneNote (logging, meeting notes, geospatial gameplans)
+- ArcGIS Online (feature layers, Dashboards, and Experience Builder)
+- **PowerAutomate (node/hub for all-of-the-above)**
 
 ## 🚨 Credential Ground Rules
 
@@ -41,17 +41,17 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 #### Group: User Info
 
-| Field Name       | Label            | Type        | Required                      | Description                   |
-|------------------|------------------|-------------|-------------------------------|-------------------------------|
-| `first_name`      | First Name        | text        | Yes                           | First name of who is submitting request             |
-| `last_name` | Last Name | teext | yes | Last name of who is submitting request |
-| `professional_title` | Professional Title | text | Yes | Professional title |
-| `work_email`          | Work Email Address    | email       | Yes                           | For notifications and routing |
-| `phone` | Phone Number | text | yes | Cell number where person can be reached during an incident |
-| `agency_type`    | Agency Type      | single_select  | No                            | Pull from RLTT domain         |
-| `in_sar_catalog` | In the SAR Catalog? | single_select | Yes | `Yes`, `No`, `I don't know` | 
-| `team_name`      | Agency/Department/Team Name        | single_select  | No                            | Pull from SAR Catalog         |
-| `team_name_other`| Other Team Name  | text | No   | No                            | If not listed in SAR Catalog  |
+| Field Name            | Label                       | Type          | Required                               | Description                   |
+|-----------------------|-----------------------------|---------------|----------------------------------------|-------------------------------|
+| `first_name`          | First Name                  | text          | Yes                                    | First name of who is submitting request |
+| `last_name`           | Last Name                   | text          | Last name of who is submitting request |
+| `professional_title`  | Professional Title          | text          | Yes                                    | Professional title |
+| `work_email`          | Work Email Address          | email         | Yes                                    | For notifications and routing |
+| `phone`               | Phone Number                | text          | yes                                    | Cell number where person can be reached during an incident |
+| `agency_type`         | Agency Type                 | single_select | No                                     | Pull from RLTT domain |
+| `in_sar_catalog`      | In the SAR Catalog?         | single_select | Yes                                    | `Yes`, `No`, `I don't know` | 
+| `team_name`           | Agency/Department/Team Name | single_select | No                                     | Pull from SAR Catalog         |
+| `team_name_other`     | Other Team Name             | text          | No                                     | If not listed in SAR Catalog  |
 
 
 
