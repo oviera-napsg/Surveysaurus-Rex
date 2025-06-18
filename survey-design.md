@@ -13,6 +13,16 @@ This form consolidates multiple workflows into a single, trackable system that i
 - ArcGIS Online (hosted feature layers, dashboards, and Experience Builder)
 - PowerAutomate (node/hub for all-of-the-above)
 
+## Credential Ground Rules
+
+All workflow configuration must be done using NSARGC accounts where applicable to ensure seamless integration in PowerAutomate.  Utilizing a single, head-less NSARGC account solves common authentication / token issues in PowerAutomate, and ensures the NSARGC / NAPSG teams can access necessary input-output integrations and troubleshoot.  This ensures scalable, future-proof access.
+
+When creating, enhancing, or troubleshooting, use:
+- nsargc_napsg (ArcGIS Online)
+- nsargc@publicsafetygis.org (Outlook / M365)
+
+
+
 ---
 
 ## 📋 Field Overview
