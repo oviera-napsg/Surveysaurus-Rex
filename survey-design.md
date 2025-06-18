@@ -6,7 +6,7 @@ The Surveysaurus Rex Survey123 form is designed to intake access requests, techn
 
 ## 🧭 Purpose
 
-This form consolidates multiple workflows into a single, trackable system that integrates with:
+This form consolidates multiple NSARGC administrative workflows into a single, trackable system that integrates with:
 - Microsoft Teams (automated messages)
 - Microsoft Outlook (email notifications)
 - OneNote (logging)
@@ -17,22 +17,20 @@ This form consolidates multiple workflows into a single, trackable system that i
 
 All workflow configuration must be done using NSARGC accounts where applicable to ensure seamless integration in PowerAutomate.  Utilizing a single, head-less NSARGC account solves common authentication / token issues in PowerAutomate, and ensures the NSARGC / NAPSG teams can access necessary input-output integrations and troubleshoot.  This ensures scalable, future-proof access.
 
-When creating, enhancing, or troubleshooting, use:
+When creating, enhancing, or troubleshooting, always use:
 - nsargc_napsg (ArcGIS Online)
-- nsargc@publicsafetygis.org (Outlook / M365)
-
-
+- nsargc@publicsafetygis.org (Outlook / M365 / Teams / OneNote)
 
 ---
 
 ## 📋 Field Overview
 
-### Section: Request Info
+### Section: I want to... Survey start / request type
 
 | Field Name     | Label            | Type        | Required | Description                 |
 |----------------|------------------|-------------|----------|-----------------------------|
-| `request_type` | Type of Request  | select_one  | Yes      | Access, Support, Feedback   |
-| `urgency`      | Urgency Level    | select_one  | Yes      | Normal, High                |
+| `request_type` | Type of Request  | select_one  | Yes      | NSARGC Interest List, Access Request, Team Onboard, Technical Issue   |
+| `urgency`      | Urgency Level    | select_one  | Yes      | Low/Not Supporting an Active Incident, High/Supporting an Active Incident                |
 | `description`  | Issue Description| multiline   | Yes      | What the user needs help with |
 
 ### Section: User Info
