@@ -1,6 +1,6 @@
 # Survey Design
 
-The **SARCOP SENTRY** Survey123 form is designed to intake access requests, technical support tickets, platform engagement tasks, and feedback related to the GEOINT platform.
+The Surveysaurus Rex Survey123 form is designed to intake access requests, technical support tickets, NSARGC engagement intentions, and onboard launches related to SARCOP.
 
 ---
 
@@ -11,6 +11,7 @@ This form consolidates multiple workflows into a single, trackable system that i
 - Microsoft Outlook (email notifications)
 - OneNote (logging)
 - ArcGIS Online (hosted feature layers, dashboards, and Experience Builder)
+- PowerAutomate (node/hub for all-of-the-above)
 
 ---
 
