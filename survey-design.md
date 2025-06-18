@@ -58,10 +58,12 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 ## 🔁 Logic and Routing
 
 - If `request_type` = "...join the NSARGC Community and/or keep informed on updates to SARCOP" > **NSARGC Interest List** page
+  - asdf
 - If `request_type` = "...request view-only access to SARCOP data for my incident" > **SARCOP Access Request** page
 - If `request_type` = "...onbard my SAR Team to SARCOP" > **SARCOP Team Onboard Request** page
 - If `request_type` = "...submit a technical issue I found in SARCOP" > **SARCOP Issue Ticket** page
-- If `urgency` = `Supporting`, the submission triggers an extra Teams notification and logs to a separate OneNote section.
+  
+- If `urgency` = `Supporting`, the submission triggers a post to a Teams channel marked as **! High Importance** with `description`
 - If `request_type = Access`, a follow-up workflow checks existing group permissions and routes to the admin team.
 - Emails are sent to the `assigned_to` user if filled in by internal team via Experience Builder.
 
