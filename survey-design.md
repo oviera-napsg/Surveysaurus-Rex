@@ -34,7 +34,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 | Field Name       | Label            | Type        | Required                      | Description                 |
 |------------------|------------------|-------------|-------------------------------|-----------------------------|
 | `request_type`   | Type of Request  | select_one  | Yes                           | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
-| `urgency`        | Urgency Level    | select_one  | Yes                           | Low/Not Supporting an Active Incident, High/Supporting an Active Incident |
+| `urgency`        | Urgency Level    | select_one  | Yes                           | `I'm Not Currently Supporting an Active Incident`, `I'm Currently Supporting an Active Incident` |
 | `description`    | Issue Description| multiline   | Yes                           | What the user needs help with |
 
 ### Section: User Info
