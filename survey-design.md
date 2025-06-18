@@ -35,19 +35,24 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 | Field Name       | Label            | Type        | Required                      | Description                 |
 |------------------|------------------|-------------|-------------------------------|-----------------------------|
-| `request_type`   | Type of Request  | select_one  | Yes                           | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
-| `urgency`        | Urgency Level    | select_one  | Yes                           | `I'm Not Currently Supporting an Active Incident`, `I'm Currently Supporting an Active Incident` |
+| `request_type`   | Type of Request  | single_select  | Yes                           | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
+| `urgency`        | Urgency Level    | single_select  | Yes                           | `I'm Not Currently Supporting an Active Incident`, `I'm Currently Supporting an Active Incident` |
 | `description`    | Issue Description| multiline   | Yes                           | What the user needs help with |
 
 #### Group: User Info
 
 | Field Name       | Label            | Type        | Required                      | Description                   |
 |------------------|------------------|-------------|-------------------------------|-------------------------------|
-| `full_name`      | Full Name        | text        | Yes                           | Who is submitting             |
-| `email`          | Email Address    | email       | Yes                           | For notifications and routing |
-| `team_name`      | Team Name        | select_one  | No                            | Pull from SAR Catalog         |
+| `first_name`      | First Name        | text        | Yes                           | First name of who is submitting request             |
+| `last_name` | Last Name | teext | yes | Last name of who is submitting request |
+| `professional_title` | Professional Title | text | Yes | Professional title |
+| `work_email`          | Work Email Address    | email       | Yes                           | For notifications and routing |
+| `phone` | Phone Number | text | yes | Cell number where person can be reached during an incident |
+| `agency_type`    | Agency Type      | single_select  | No                            | Pull from RLTT domain         |
+| `in_sar_catalog` | In the SAR Catalog? | single_select | Yes | `Yes`, `No`, `I don't know` | 
+| `team_name`      | Agency/Department/Team Name        | single_select  | No                            | Pull from SAR Catalog         |
 | `team_name_other`| Other Team Name  | text | No   | No                            | If not listed in SAR Catalog  |
-| `agency_type`    | Agency Type      | select_one  | No                            | Pull from RLTT domain         |
+
 
 
 
