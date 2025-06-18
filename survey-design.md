@@ -59,22 +59,37 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 ### `request_type`
 
-- If = "...join the NSARGC Community and/or keep informed on updates to SARCOP"
+- If = _"...join the NSARGC Community and/or keep informed on updates to SARCOP"_
   - User completes **User Info** group
   - Submission triggers
     - post to MS Teams channel
-    - Thank you email to user
-    - Invite to monthly SARGEO Hangout
-- If = "...request view-only access to SARCOP data for my incident"
+    - Email to user: thank you, confirmation of submission, what to look out for next
+    - Added to monthly SARGEO Hangout list and Constant Contact SAR Tracks distribution list
+
+- If = _"...request view-only access to SARCOP data for my incident, future incidents, or for my own GIS products"_
   - User completes **User Info** group
-  - User prompted with **Access Request** page
+  - User prompted with **Access Request** page and completes
   - Submission triggers
     - post to MS Teams channel
-      - If `urgency` = `supporting`, post marked with **! High Importance**
+      - If `urgency` = `supporting`, MS Teams post marked as **! High Importance**
+    - If `agency_type` = `FEMA_Task_Force`, `DOI`, `USCG`, `T32`, `T10`, email Paul cc: Jared, Adam, Orlando
+    - If `agency_type` = `State`, `Local`, `Territorial`, `Tribal`, `Other`, email Jared cc: Paul, Adam, Orlando
+    - Email to user: confirmation of submission, what to look out for next
+
+- If = _"...onboard my SAR Team to SARCOP"_
+  - User completes **User Info** group
+  - User prompted with **SARCOP Team Onboard Request** page
+  - Submission triggers
+    - post to MS Teams channel
+      - If `urgency` = `supporting`, MS Teams post marked as **! High Importance**
+    - new page in OneNote > NSARGC Notebook > Geospatial Gameplans > Inbox with `feature_attributes` template and submissions
+      - when processed, manually file new page into appropriate place in Geospatial Gameplans
+    - Email to user: confirmation of submission, next steps
       - If `agency_type` = `FEMA_Task_Force`, `DOI`, `USCG`, `T32`, `T10`, email Paul cc: Jared, Adam, Orlando
-      - If `agency_type` = `State`, `Local`, `Territorial`, `Tribal`, `Other`, email Jared cc: Paul, Adam Orlando
-- If = "...onbard my SAR Team to SARCOP" > **SARCOP Team Onboard Request** page
-- If = "...submit a technical issue I found in SARCOP" > **SARCOP Issue Ticket** page
+      - If `agency_type` = `State`, `Local`, `Territorial`, `Tribal`, `Other`, email Jared cc: Paul, Adam, Orlando
+      - If `urgency` = `supporting`, emails are marked as **! High Importance**
+
+- If = _"...submit a technical issue I found in SARCOP"_ > **SARCOP Issue Ticket** page
   
 - If `urgency` = `Supporting`, the submission triggers a post to a Teams channel marked as **! High Importance** with `description`
 - If `request_type = Access`, a follow-up workflow checks existing group permissions and routes to the admin team.
