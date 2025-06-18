@@ -31,8 +31,6 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 ### Page: Start / User Info
 
----
-
 #### Group: Request Type
 
 | Field Name       | Label            | Type        | Required                      | Description                 |
