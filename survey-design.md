@@ -1,6 +1,6 @@
 # Survey Design
 
-The Surveysaurus Rex Survey123 form is designed to intake access requests, technical support tickets, NSARGC engagement intentions, and onboard launches related to SARCOP.
+The Surveysaurus Rex Survey123 form is designed to intake access requests, technical support tickets, NSARGC engagement requests, and team onboard launches related to SARCOP.
 
 ---
 
