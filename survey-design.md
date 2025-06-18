@@ -25,23 +25,27 @@ When creating, enhancing, or troubleshooting, always use:
 
 ## 📋 Field Overview
 
+This is a broad, conceptual overview and may not capture all of the nuance within Survey123 Web Designer or exact field / feature types.
+
+--- 
+
 ### Section: Survey Start / Request Type
 
-| Field Name     | Label            | Type        | Required | Description                 |
-|----------------|------------------|-------------|----------|-----------------------------|
-| `request_type` | Type of Request  | select_one  | Yes      | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
-| `urgency`      | Urgency Level    | select_one  | Yes      | Low/Not Supporting an Active Incident, High/Supporting an Active Incident |
-| `description`  | Issue Description| multiline   | Yes      | What the user needs help with |
+| Field Name       | Label            | Type        | Required                      | Description                 |
+|------------------|------------------|-------------|-------------------------------|-----------------------------|
+| `request_type`   | Type of Request  | select_one  | Yes                           | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
+| `urgency`        | Urgency Level    | select_one  | Yes                           | Low/Not Supporting an Active Incident, High/Supporting an Active Incident |
+| `description`    | Issue Description| multiline   | Yes                           | What the user needs help with |
 
 ### Section: User Info
 
-| Field Name       | Label           | Type        | Required                      | Description                   |
-|------------------|-----------------|-------------|-------------------------------|-------------------------------|
-| `full_name`      | Full Name       | text        | Yes                           | Who is submitting             |
-| `email`          | Email Address   | email       | Yes                           | For notifications and routing |
-| `team_name`      | Team Name       | select_one  | No                            | Pull from SAR Catalog         |
-| `team_name_other`| Other Team Name | text | No   | No                            | If not listed in SAR Catalog  |
-| `agency_type`    | Agency Type     | select_one  | No                            | Pull from RLTT domain         |
+| Field Name       | Label            | Type        | Required                      | Description                   |
+|------------------|------------------|-------------|-------------------------------|-------------------------------|
+| `full_name`      | Full Name        | text        | Yes                           | Who is submitting             |
+| `email`          | Email Address    | email       | Yes                           | For notifications and routing |
+| `team_name`      | Team Name        | select_one  | No                            | Pull from SAR Catalog         |
+| `team_name_other`| Other Team Name  | text | No   | No                            | If not listed in SAR Catalog  |
+| `agency_type`    | Agency Type      | select_one  | No                            | Pull from RLTT domain         |
 
 
 
