@@ -40,8 +40,8 @@ When creating, enhancing, or troubleshooting, always use:
 | `full_name`      | Full Name       | text        | Yes                           | Who is submitting             |
 | `email`          | Email Address   | email       | Yes                           | For notifications and routing |
 | `team_name`      | Team Name       | select_one  | No                            | Pull from SAR Catalog         |
-| 'team_name_other'| Other Team Name | text | No   | No                            | If not listed in SAR Catalog  |
-| 'agency_type'    | Agency Type     | select_one  | No                            | Pull from RLTT domain         |
+| `team_name_other`| Other Team Name | text | No   | No                            | If not listed in SAR Catalog  |
+| `agency_type`    | Agency Type     | select_one  | No                            | Pull from RLTT domain         |
 
 
 
