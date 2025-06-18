@@ -57,8 +57,10 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 ## 🔁 Logic and Routing
 
+### `request_type`
+
 - If `request_type` = "...join the NSARGC Community and/or keep informed on updates to SARCOP" > **NSARGC Interest List** page
-  - asdf
+  - Directed to **NSARGC Interest List** page
 - If `request_type` = "...request view-only access to SARCOP data for my incident" > **SARCOP Access Request** page
 - If `request_type` = "...onbard my SAR Team to SARCOP" > **SARCOP Team Onboard Request** page
 - If `request_type` = "...submit a technical issue I found in SARCOP" > **SARCOP Issue Ticket** page
