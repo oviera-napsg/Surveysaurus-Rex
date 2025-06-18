@@ -25,12 +25,12 @@ When creating, enhancing, or troubleshooting, always use:
 
 ## 📋 Field Overview
 
-### Section: I want to... Survey start / request type
+### Section: Survey Start / Request Type
 
 | Field Name     | Label            | Type        | Required | Description                 |
 |----------------|------------------|-------------|----------|-----------------------------|
-| `request_type` | Type of Request  | select_one  | Yes      | NSARGC Interest List, Access Request, Team Onboard, Technical Issue   |
-| `urgency`      | Urgency Level    | select_one  | Yes      | Low/Not Supporting an Active Incident, High/Supporting an Active Incident                |
+| `request_type` | Type of Request  | select_one  | Yes      | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
+| `urgency`      | Urgency Level    | select_one  | Yes      | Low/Not Supporting an Active Incident, High/Supporting an Active Incident |
 | `description`  | Issue Description| multiline   | Yes      | What the user needs help with |
 
 ### Section: User Info
