@@ -15,7 +15,7 @@ NSARGC: [National Search and Rescue Geospatial Coordination Group](https://nsarg
 ---
 
 # 📜 Survey Design
-A conceptual outline of Survey123 form structure and associated fields, logic and routing, and integration is available at survey-design.md
+A conceptual outline of Survey123 form structure and associated fields, logic and routing, and integration is available at [survey-design.md](https://github.com/oviera-napsg/Surveysaurus-Rex/blob/main/survey-design.md)
 
 ---
 
