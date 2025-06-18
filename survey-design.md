@@ -65,7 +65,14 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
     - post to MS Teams channel
     - Thank you email to user
     - Invite to monthly SARGEO Hangout
-- If = "...request view-only access to SARCOP data for my incident" > **SARCOP Access Request** page
+- If = "...request view-only access to SARCOP data for my incident"
+  - User completes **User Info** group
+  - User prompted with **Access Request** page
+  - Submission triggers
+    - post to MS Teams channel
+      - If `urgency` = `supporting`, post marked with **! High Importance**
+      - If `agency_type` = `FEMA_Task_Force`, `DOI`, `USCG`, `T32`, `T10`, email Paul cc: Jared, Adam, Orlando
+      - If `agency_type` = `State`, `Local`, `Territorial`, `Tribal`, `Other`, email Jared cc: Paul, Adam Orlando
 - If = "...onbard my SAR Team to SARCOP" > **SARCOP Team Onboard Request** page
 - If = "...submit a technical issue I found in SARCOP" > **SARCOP Issue Ticket** page
   
