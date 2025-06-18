@@ -62,7 +62,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 - If = _"...join the NSARGC Community and/or keep informed on updates to SARCOP"_
   - User completes **User Info** group
   - Submission triggers
-    - post to MS Teams channel
+    - post to Admin MS Teams channel (core)
     - Email to user: thank you, confirmation of submission, what to look out for next
     - Added to monthly SARGEO Hangout list and Constant Contact SAR Tracks distribution list
 
@@ -70,7 +70,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
   - User completes **User Info** group
   - User prompted with **Access Request** page and completes
   - Submission triggers
-    - post to MS Teams channel
+    - post to Admin MS Teams channel (Core)
       - If `urgency` = `supporting`, MS Teams post marked as **! High Importance**
     - If `agency_type` = `FEMA_Task_Force`, `DOI`, `USCG`, `T32`, `T10`, email Paul cc: Jared, Adam, Orlando
     - If `agency_type` = `State`, `Local`, `Territorial`, `Tribal`, `Other`, email Jared cc: Paul, Adam, Orlando
@@ -80,7 +80,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
   - User completes **User Info** group
   - User prompted with **SARCOP Team Onboard Request** page
   - Submission triggers
-    - post to MS Teams channel
+    - post to Admin MS Teams channel (Core)
       - If `urgency` = `supporting`, MS Teams post marked as **! High Importance**
     - new page in OneNote > NSARGC Notebook > Geospatial Gameplans > Inbox with `feature_attributes` template and submissions
       - when processed, manually file new page into appropriate place in Geospatial Gameplans
@@ -89,12 +89,13 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
       - If `agency_type` = `State`, `Local`, `Territorial`, `Tribal`, `Other`, email Jared cc: Paul, Adam, Orlando
       - If `urgency` = `supporting`, emails are marked as **! High Importance**
 
-- If = _"...submit a technical issue I found in SARCOP"_ > **SARCOP Issue Ticket** page
-  
-- If `urgency` = `Supporting`, the submission triggers a post to a Teams channel marked as **! High Importance** with `description`
-- If `request_type = Access`, a follow-up workflow checks existing group permissions and routes to the admin team.
-- Emails are sent to the `assigned_to` user if filled in by internal team via Experience Builder.
-
+- If = _"...submit a technical issue I found in SARCOP"_
+  - User completes **User Info** group
+  - User prompted with **SARCOP Issue Ticket** page
+  - Submission triggers
+    - post to Issue Ticket MS Teams channel (Operations)
+      - If `urgency` = `supporting`, MS Teams post marked as **! High Importance**
+        
 ---
 
 > 📌 *This document will evolve alongside the Survey123 schema and integration workflows.*
