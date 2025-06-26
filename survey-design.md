@@ -33,7 +33,7 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 #### Group: Request Type and Contact
 
-Surveysaurus begins with a simple intake page listing the request type and contact information.  The `request_type` is mutli-select; the selection(s) trigger the appropriate follow-up pages.  All submissions triggers begin `contains` logic using the `request_type` field.
+Surveysaurus begins with a simple intake page listing the request type and contact information.  The `request_type` is mutli-select; the selection(s) trigger the appropriate follow-up pages.  All submissions triggers utilize `contains` logic using the `request_type` field.
 
 ![image](https://github.com/user-attachments/assets/ba1060bf-280d-4207-8623-a6ab6f3dadf5)
 
