@@ -44,7 +44,18 @@ Surveysaurus begins with a simple intake page listing the request type and conta
 
 #### Group: SARCOP Access Request
 
-If `request_type` [contains] `apply_for_access`, a SARCOP Access Request application page becomes visibile.
+If `request_type` contains `apply_for_access`, a SARCOP Access Request application page becomes visibile.
+
+![image](https://github.com/user-attachments/assets/65ddf6a8-ae9e-4656-adef-5cad82f32bf0)
+![image](https://github.com/user-attachments/assets/b5b21ce6-4a26-4090-aa53-3dc7f09f008c)
+![image](https://github.com/user-attachments/assets/0e7f29ec-c586-4959-a253-7511fee5743e)
+![image](https://github.com/user-attachments/assets/539e152f-f6ab-4071-ad9b-b12545636f2a)
+![image](https://github.com/user-attachments/assets/ace6c4bf-e446-4a01-ade2-975e44af21f6)
+![image](https://github.com/user-attachments/assets/e58fc530-9306-4f13-a5cb-c0ba0928ec9b)
+
+
+Hidden fields 
+
 
 ---
 
