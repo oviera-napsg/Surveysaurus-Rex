@@ -2,6 +2,8 @@
 
 The Surveysaurus Rex Survey123 form is designed to intake access requests, technical support tickets, NSARGC engagement requests, and team onboard launches related to SARCOP.
 
+![image](https://github.com/user-attachments/assets/f784c53d-de7f-4e5a-b322-a082d608b23e)
+
 ---
 
 ## 🧭 Purpose
