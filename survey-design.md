@@ -31,25 +31,13 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 ### 📃 Page: Start / Request Type and Contact
 
-#### Group: Request Type
+#### Group: Request Type and Contact
 
-![image](https://github.com/user-attachments/assets/4d05cf28-5e16-4033-adc4-a81205498d1c)
+Surveysaurus begins with a simple intake page listing the request type and contact information.  The `request_type` is mutli-select; the selection(s) trigger the appropriate follow-up pages.  All submissions triggers begin `contains` logic using the `request_type` field.
 
-![image](https://github.com/user-attachments/assets/2d235cd8-df9b-4ba0-9b59-b5eaffbe6c24)
+![image](https://github.com/user-attachments/assets/ba1060bf-280d-4207-8623-a6ab6f3dadf5)
 
-#### Group: User Info
-
-| Field Name            | Label                       | Type            | Required                               | Description                   |
-|-----------------------|-----------------------------|-----------------|----------------------------------------|-------------------------------|
-| `first_name`          | First Name                  | singleline_text | Yes                                    | First name of who is submitting request |
-| `last_name`           | Last Name                   | singleline_text | Yes                                    | Last name of who is submitting request
-| `professional_title`  | Professional Title          | singleline_text | Yes                                    | Professional title |
-| `work_email`          | Work Email Address          | email           | Yes                                    | For notifications and routing |
-| `phone`               | Phone Number                | singleline_text | yes                                    | Cell number where person can be reached during an incident |
-| `agency_type`         | Agency Type                 | single_select   | No                                     | Pull from RLTT domain? |
-| `in_sar_catalog`      | In the SAR Catalog?         | single_select   | Yes                                    | `Yes`, `No`, `I don't know` | 
-| `team_name`           | Agency/Department/Team Name | single_select   | No                                     | Pull from SAR Catalog         |
-| `team_name_other`     | Other Team Name             | singleline_text | No                                     | If not listed in SAR Catalog  |
+![image](https://github.com/user-attachments/assets/4a6853f9-63af-48d2-89b8-fb6497daabfc)
 
 ---
 
