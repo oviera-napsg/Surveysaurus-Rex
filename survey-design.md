@@ -27,7 +27,7 @@ When creating, enhancing, or troubleshooting, always use:
 
 ## 📋 Field Overview
 
-This is a broad, conceptual overview and may not capture all of the nuance within Survey123 Web Designer or exact field / feature types.  As of 18 June 2025, hidden fields are not listed.
+This is a broad, conceptual overview and may not capture all of the nuance within Survey123 Web Designer or exact field / feature types.
 
 --- 
 
@@ -40,6 +40,11 @@ Surveysaurus begins with a simple intake page listing the request type and conta
 ![image](https://github.com/user-attachments/assets/ba1060bf-280d-4207-8623-a6ab6f3dadf5)
 
 ![image](https://github.com/user-attachments/assets/4a6853f9-63af-48d2-89b8-fb6497daabfc)
+
+
+#### Group: SARCOP Access Request
+
+If `request_type` [contains] `apply_for_access`, a SARCOP Access Request application page becomes visibile.
 
 ---
 
