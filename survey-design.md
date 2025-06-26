@@ -29,15 +29,13 @@ This is a broad, conceptual overview and may not capture all of the nuance withi
 
 --- 
 
-### 📃 Page: Start / User Info
+### 📃 Page: Start / Request Type and Contact
 
 #### Group: Request Type
 
-| Field Name       | Label             | Type           | Required                      | Description                 |
-|------------------|-------------------|----------------|-------------------------------|-----------------------------|
-| `request_type`   | Type of Request   | multiple_select| Yes                           | NSARGC Interest List, Access Request, Team Onboard, Technical Issue |
-| `urgency`        | Urgency Level     | single_select  | Yes                           | `I'm Not Currently Supporting an Active Incident`, `I'm Currently Supporting an Active Incident` |
-| `description`    | Issue Description | multiline_text | Yes                           | What the user needs help with |
+![image](https://github.com/user-attachments/assets/4d05cf28-5e16-4033-adc4-a81205498d1c)
+
+![image](https://github.com/user-attachments/assets/2d235cd8-df9b-4ba0-9b59-b5eaffbe6c24)
 
 #### Group: User Info
 
